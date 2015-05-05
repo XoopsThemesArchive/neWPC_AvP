@@ -1,0 +1,116 @@
+
+
+body {color: #BBBBBB; background: #000000; margin: 0; padding: 0; background-image: url('pictures/background.jpg'); background-attachment: fixed; background-repeat: no-repeat; background-position: center bottom; }
+
+table {width: 100%; margin: 5; padding: 5; font-size: small;}
+table td {padding: 0; border-width: 10; vertical-align: top; font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+a {color: #CC1111; text-decoration: none; font-weight: bold; background-color: transparent;}
+a:hover {color: #FFFFFF;}
+
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+ul { margin: 2px; padding: 2px; list-style: decimal inside; text-align: left;}
+li { margin-left: 2px; list-style: square inside; color: #448844}
+
+input.formButton {}
+
+.item {border: 1px solid #448844;}
+.itemHead {padding: 3px; background-color: #448844; color: #000000;}
+.itemInfo {text-align: right; padding: 3px; background-color: #448844; color: #000000;}
+.itemTitle a {font-size: 130%; font-weight: bold; font-variant: small-caps; color: #FFFFFF;}
+.itemTitle a:hover {font-size: 130%; font-weight: bold; font-variant: small-caps; color: #000000;}
+.itemPoster {font-size: 90%; font-style:italic;}
+.itemPostDate {font-size: 90%; font-style:italic;}
+.itemStats {font-size: 90%; font-style:italic;}
+.itemBody {padding-left: 5px;}
+.itemText {margin-top: 5px; margin-bottom: 5px; line-height: 1.5em;}
+.itemText:first-letter {font-size: 133%; font-weight: bold; color: #CC0000;}
+.itemFoot {text-align: right; padding: 3px; background-color: #88CC88}
+.itemAdminLink {font-size: 90%;color: #000000;}
+.itemPermaLink {font-size: 90%;color: #000000;}
+
+th {background-color: #2F5376; color: #FFFFFF; padding : 2px; vertical-align : middle; font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+td#headerbanner {width: 100%; background-color: transparent; vertical-align: middle; text-align:center;}
+td#headerlogo {background-color: transparent; align: middle;}
+td#headerbar {border-top: 1px solid #448844; background-color: transparent;}
+
+td#leftcolumn {width: 170px; font-size:12px; background-color: transparent; background-image: url('pictures/background_left_column.jpg'); background-attachment: fixed; background-repeat: repeat; background-position: bottom left;}
+td#leftcolumn th {background-color: transparent; color: #448844; vertical-align: middle; vertical-align: middle;}
+td#leftcolumn div.blockTitle {padding: 12px; background-color: transparent; color: #AA2222; font-weight: bold; text-align: center; border: 1px solid #448844; background-image: url('pictures/column_logo_left.gif'); background-attachment: fixed; background-repeat: no-repeat; background-position: center left;}
+td#leftcolumn div.blockContent {padding: 3px; line-height: 120%; background-color: transparent; }
+
+td#rightcolumn {width: 170px; font-size:12px; background-color: transparent; background-image: url('pictures/background_right_column.jpg'); background-attachment: fixed; background-repeat: repeat; background-position: bottom right;}}
+td#rightcolumn th {background-color: transparent; color: #448844; vertical-align: middle;}
+td#rightcolumn div.blockTitle {padding: 12px; background-color: transparent; color: #AA2222; font-weight: bold; text-align: center; border: 1px solid #448844; background-image: url('pictures/column_logo_right.gif'); background-attachment: fixed; background-repeat: no-repeat; background-position: center right;}
+td#rightcolumn div.blockContent {padding: 3px; line-height: 120%; background-color: transparent; }
+
+td#centercolumn {font-size: 12px; color: #FFFFFF; border-top: 1px solid #448844; }
+td#centercolumn th {background-color: #448844; color: #FFFFFF; vertical-align: middle;}
+
+td#centerCcolumn {padding: 0px 3px 1px 3px;}
+td#centerCcolumn legend.blockTitle {padding: 3px; color: #448844; font-weight: bold; margin-top: 0px; margin-right: 0px;  margin-left: 0px;}
+td#centerCcolumn div.blockContent {border-left: 1px solid #448844; border-right: 1px solid #448844; border-bottom: 1px solid #448844; padding: 3px; margin-right: 0px;  margin-left: 0px; margin-bottom: 2px; line-height: 120%;}
+
+td#centerLcolumn {width: 50%; padding: 0px 3px 0px 0px;}
+td#centerLcolumn legend.blockTitle {padding: 3px; color: #448844; font-weight: bold; margin-top: 0px;}
+td#centerLcolumn div.blockContent {border-left: 1px solid #448844; border-right: 1px solid #448844; border-bottom: 1px solid #448844; padding: 3px; margin-left: 3px; margin-right: 2px; margin-bottom: 2px; line-height: 120%;}
+
+td#centerRcolumn {width: 50%; padding: 0px 3px 0px 0px;}
+td#centerRcolumn legend.blockTitle {padding: 3px; color: #448844; font-weight: bold; margin-top: 0px;}
+td#centerRcolumn div.blockContent {border-left: 1px solid #448844; border-right: 1px solid #448844; border-bottom: 1px solid #448844; padding: 3px; margin-left: 2px; margin-right: 3px; margin-bottom: 2px; line-height: 120%;}
+
+div#content {text-align: left; padding: 8px;}
+
+tr#footer {text-align:center; }
+td#footer {width: 25%; background-color: transparent; vertical-align: middle; text-align:center; border-top: 0px solid #000000; background-image: url('pictures/background_footer.jpg'); background-attachment: fixed; background-repeat: repeat; background-position: bottom center;}
+
+td#mainmenu a {background-color: #448844; color: #FFFFFF; display: block; margin: 0; padding: 4px;}
+td#mainmenu a:hover {background-color: #99DD99; color: #000000;}
+td#mainmenu a.menuTop {border-top: 1px solid #118811;}
+td#mainmenu a.menuMain {padding-left: 3px; border-right: 1px solid #118811; border-top: 1px solid #000000; border-left: 1px solid #008800;}
+td#mainmenu a.menuSub {padding-left: 9px; border-right: 1px solid #116611; border-top: 1px solid #000000; border-left: 1px solid #118811;}
+
+td#usermenu a {background-color: #448844; color: #FFFFFF; display: block; margin: 0; padding: 4px; border-top: 1px solid #000000;  border-right: 1px solid #118811; border-left: 1px solid #008800;}
+td#usermenu a:hover {background-color: #99DD99; color: #000000;}
+td#usermenu a.menuTop {border-top: 1px solid #118811;}
+td#usermenu a.menuMain {padding-left: 3px; border-right: 1px solid #118811; border-top: 1px solid #000000; border-bottom: 1px solid #666666; border-left: 1px solid #008800;}
+td#usermenu a.highlight {background-color: #FFFFFF;}
+
+
+
+.outer {border: 1px solid #448844;}
+.head {background-color: #448844; padding: 5px; font-weight: bold; color: #FFFFFF; }
+.even {background-color: #66AA66; padding: 5px; color: #000000; }
+.odd {background-color: #88CC88; padding: 5px; color: #000000; }
+.foot {background-color: #99DD99; padding: 5px; font-weight: bold; color: #000000; }
+tr.even td {background-color: #66AA66; padding: 5px; color: #000000; }
+tr.odd td {background-color: #99DD99; padding: 5px; color: #000000; }
+
+div.errorMsg { background-color: #448844; text-align: center; border-top: 1px solid #DDDDDD; border-left: 1px solid #DDDDDD; border-right: 1px solid #448844; border-bottom: 1px solid #448844; font-weight: bold; padding: 10px;}
+
+div.confirmMsg { background-color: #DDFFDD; color: #FFFFFF; text-align: center; border-top: 1px solid #DDDDDD; border-left: 1px solid #DDDDDD; border-right: 1px solid #448844; border-bottom: 1px solid #448844; font-weight: bold; padding: 10px;}
+
+div.resultMsg { background-color : #FF0000; color: #333333; text-align: center; border-top: 1px solid #118811; border-left: 1px solid #118811; font-weight: bold; border-right: 1px solid #118811; border-bottom: 1px solid #118811; padding: 10px;}
+
+div.xoopsCode { background: #448844; border: 1px inset #FFFFFF; color: #FFFFFF; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px;}
+
+div.xoopsQuote { background: #448844; border: 1px inset #FFFFFF; color: #FFFFFF;  font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px;}
+
+
+.comTitle {font-weight: bold; margin-bottom: 2px;}
+.comText {padding: 2px;}
+.comUserStat {font-size: 10px; color: #448844; font-weight:bold; border: 1px solid #118811; background-color: #000000; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: 10px; color: #FF0000; font-weight:bold; font-size: 10px;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-size: 10px; font-weight:bold;}
+.comUserRankImg {border: 0px none;}
+.comUserName {font-size: 12px; color: #000000; font-weight:bold;}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal; font-style: italic; font-size: smaller;}
+.comDateCaption {font-weight: bold; font-style: normal;}
